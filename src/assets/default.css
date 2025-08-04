@@ -1,0 +1,22 @@
+:root {
+  --default-hover-content-color: #e5e4e3;
+  /* Color applied to page background */
+  --default-background-color: #fefefe;
+  /* Color applied to links, hr and all headers*/
+  --default-main-color: #41b883;
+  /* Color applied to all texts formats */
+  --default-text-color: #35495e;
+  /* Size applied as baseline font-size */
+  --default-main-size: 16pt;
+  /* Size applied as baseline width for configuration panel */
+  --default-panel-width: 12rem;
+}
+
+/* Some CSS rules declarations resets by default */
+* {
+  box-sizing: border-box;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
